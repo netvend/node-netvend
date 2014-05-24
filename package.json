@@ -1,0 +1,26 @@
+{
+    "name": "netvend",
+    "version": "0.1.0",
+    "description": "A Node.js and Browser Javascript wrapper for the NetVend web API.",
+    "keywords": ["netvend", "bitcoin"],
+    "homepage": "https://github.com/netvend/node-netvend",
+    "bugs": {
+        "url": "https://github.com/netvend/node-netvend/issues",
+        "email": "me@bardiharborow.com"
+    },
+    "license": "MIT",
+    "author": "Bardi Harborow <me@bardiharborow.com> (http://www.bardiharborow.com/)",
+    "main": "main",
+    "bin": {
+        "netvend": "cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/netvend/node-netvend.git"
+    },
+    "dependencies": {
+        "request": "2.36.0",
+        "minimist": "0.1.0",
+        "bitcoinjs-lib": "0.2.0"
+    }
+}
